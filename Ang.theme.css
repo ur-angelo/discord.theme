@@ -1,0 +1,65 @@
+/**
+* @name .gg/Ang 
+* @version 5.2.0
+* @description For when default discord just isn't dark enough, a theme for those who live a night. Now with extra spice!
+* @author ! angelo 𓂀
+* @invite GnVZzEQW5G
+* @source https://github.com/ur-angelo/discord.theme
+* @website https://guns.lol/angelo_x
+*/
+
+@import url("https://raw.githubusercontent.com/ur-angelo/discord.theme/main/theme.css");
+
+/*
+
+                                                                           /$$ /$$$$$$                           
+                                                                          /$$//$$__  $$                          
+                                                  /$$$$$$   /$$$$$$      /$$/| $$  \ $$ /$$$$$$$   /$$$$$$       
+                                                 /$$__  $$ /$$__  $$    /$$/ | $$$$$$$$| $$__  $$ /$$__  $$      
+                                                | $$  \ $$| $$  \ $$   /$$/  | $$__  $$| $$  \ $$| $$  \ $$      
+                                                | $$  | $$| $$  | $$  /$$/   | $$  | $$| $$  | $$| $$  | $$      
+                                             /$$|  $$$$$$$|  $$$$$$$ /$$/    | $$  | $$| $$  | $$|  $$$$$$$      
+                                            |__/ \____  $$ \____  $$|__/     |__/  |__/|__/  |__/ \____  $$      
+                                                 /$$  \ $$ /$$  \ $$                              /$$  \ $$      
+                                                |  $$$$$$/|  $$$$$$/                             |  $$$$$$/      
+                                                 \______/  \______/                               \______/               
+                                                            
+
+                                                                       made by @angelo x
+
+*/
+
+:root {
+
+/* Purple */  
+  --mainColor: #6900d1;
+  --gradientColor01: #7800f1;
+  --gradientColor02: #bb00c5;
+  --backgroundColor01: #110022; 
+  --backgroundColor02: #0a0014;
+  --linkcolor: #6900d1;
+  --backgroundCode: #10021f;
+
+  /* Better Hljs */
+  --backgroundName: rgba(0, 0, 0, .2);
+
+  /* Gradients */
+  --toggle-gradient: true;
+
+  /* Radial Status */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: var(--mainColor);
+  --rs-phone-color: var(--mainColor);
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+
+  /* Custom Font */
+  --customFont: 'gg sans', sans-serif;
+}
